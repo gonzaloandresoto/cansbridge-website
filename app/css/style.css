@@ -77,6 +77,7 @@ p {
     justify-content: space-between;
     align-self: center;
     padding: 30px 5%;
+    align-items: flex-end;
 }
 
 .landing__title {
@@ -118,4 +119,32 @@ p {
 .footie h3 {
     font-size: 3rem;
     color:#D8D3CE;
+}
+
+@media all and (max-width: 1024px) {
+    .cover__writing {
+        display: block;
+    }
+
+    .landing__title {
+        padding-bottom: 30px;
+    }
+
+    .pitch {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .part__no {
+        padding-bottom: 15px;
+    }
+
+    .val__prop {
+        padding-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
 }
